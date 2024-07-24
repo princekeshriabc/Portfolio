@@ -168,11 +168,12 @@ a{
     bottom: -16%;
     left: 0;
     font-weight: bold;
-    background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
     -webkit-background-clip: text;
+    overflow: hidden;
 
 
 }
@@ -183,7 +184,7 @@ body.dark .fadedText {
     bottom: -16%;
     left: 0;
     font-weight: bold;
-    background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -208,7 +209,7 @@ body.dark .heading {
 .role {
     color: transparent;
     font-weight: 900;
-    background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -400,7 +401,7 @@ body.dark .projectSection {
   line-height: 75px;
   padding: 50px 0 30px;
   text-align: center;
-  background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+  background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -604,7 +605,7 @@ body.dark .projectSection {
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
-  background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+  background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -613,7 +614,7 @@ body.dark .projectSection {
 
 .skillHeading span {
   font-size: 90px;
-  background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+  background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -674,7 +675,7 @@ body.dark .skillSubHeading p {
   user-select: none;
   color: transparent;
   font-weight: bold;
-  background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+  background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
@@ -794,7 +795,7 @@ footer {
   bottom: -1rem;
   color: transparent;
   user-select: none;
-  background-image:url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+  background-image:url("./image/fadeimg.png") ;
     background-size: cover;
     background-position: center;
     background-clip: text;
