@@ -3,23 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio_website_Me</title>
+    <title>PRINCE</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button.css">
     <!-- Favicon  -->
-    <link rel="shortcut icon" href="./image/OIP.jpeg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./image/Abc_Learntoearn_logo-removebg-preview.png" type="image/x-icon" />
 </head>
-<body>
+<body class="dark">
+    <div id="start1">
+        <div id="loader">
+            Opening...
+        </div>
+    </div>
     <div id="wrapper">
+        
         <div class="container">
+            
             <div class="navbar">
                 <div class="logo-container">
-                    <img src="./image/OIP.jpeg" class="logo">
-                    <div class="logo-text">rince Keshri Abc</div>
+                    <img src="./image/Abc_Learntoearn_logo-removebg-preview.png" class="logo">
+                    <!-- <div class="logo-text">rince Keshri Abc</div> -->
                 </div>
                 <div class="nav-items">
+                    <div><a href="./index.html">Home</a></div>
                     <div><a href="#projects">Projects</a></div>
                     <div><a href="#skills">Skills</a></div>
-                    <div><a href="#contactme">Contact Me</a></div>
+                    <div><a href="#contactMe">Contact Me</a></div>
+                    <div>
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="checkbox-label">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <span class="ball"></span>
+                        </label>
+                    </div>
+                    
+                </div>
+                <div class="nav-items1">
+                    <a href="https://github.com/princekeshriabc" target="_blank">
+                        <button class="button-17" role="button"><i class="fa-brands fa-github icon1"></i></button>
+                    
+                    </a>
+                    <a href="https://www.linkedin.com/in/prince-keshri-abc-262b1b224/" target="_blank">
+                    
+                        <button class="button-17" role="button"> <i class="fa-brands fa-linkedin icon1"></i></button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -40,7 +68,7 @@
                 </div>
                 <div class="">
                     <div class="userImage">
-                        <img src="./image/profile.png" alt="" />
+                        <img src="./image/Profile1.png" alt="" class="profile1" />
                     </div>
                 </div>
             </div>
@@ -54,9 +82,255 @@
                     I’m a software developer and here is my portfolio website. Here
                     you’ll learn about my journey as a software developer.
                 </p>
-                <div class="btn">Hire Me</div>
+                <div class="btn">
+                    <a href="https://drive.google.com/file/d/1vWWnjNaHdscSYfE21z9_wTGYUN2X6dqI/view?usp=sharing" target="_blank">View Resume</a>
+                </div>
             </div>
         </section>
+        <section id="projects" class="projectSection">
+            <h2 class="projectTitle">Projects</h2>
+            <div class="projectContainer">
+                <div class="projectCard" id="project1">
+                    <div class="projectNumber rightNumber">01</div>
+                    <div class="projectContent leftProjectContent">
+                        <div class="projectSkillsContainer">
+                            <img class="projectSkill" src="./image/stack/HTML.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/CSS.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/Javascript.svg" alt="" />
+                            <img class="projectSkill" src="./image/stack/gsap-greensock.svg" alt="" />
+                            
+                        </div>
+                        <h2 class="projectHeading">Cricket Ball Aerodynamics</h2>
+                        <p class="projectSubHeading">
+                            A comprehensive and detailed analysis of the scientific principles of aerodynamics which contribute to the mid air
+                            movement of the cricket ball illustrated through videos and other features.
+                        </p>
+                        <div class="btnGroup">
+                            <button class="btn btnProject" onclick="window.open('https://github.com/princekeshriabc/Cricket-Ball-Aerodynamics', '_blank')">Read More</button>
+                            <a href="https://github.com/princekeshriabc/Cricket-Ball-Aerodynamics" target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://princekeshriabc.github.io/Cricket-Ball-Aerodynamics/" target="_blank">
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="projectCard" id="project2">
+                    <div class="projectNumber leftNumber">02</div>
+                    <div class="projectContent rightProjectContent">
+                        <div class="projectSkillsContainer">
+                            <img class="projectSkill" src="./image/stack/HTML.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/CSS.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/Javascript.svg" alt="" />
+                            <img class="projectSkill" src="./image/stack/json-file-svgrepo-com.svg" alt="" />
+                            
+                            
+                        </div>
+                        <h2 class="projectHeading">IIIT Raichur AIMS Extention</h2>
+                        <p class="projectSubHeading">
+                            This extension which enables us to calculate our cgpa directly from the aims protal, just by clicking on the
+                            extension.
+                        </p>
+                        <div class="btnGroup">
+                            <button class="btn btnProject" onclick="window.open('https://github.com/princekeshriabc/IIIT-Raichur-AIMS-Extention', '_blank')">Read More</button>
+                            <a href="https://github.com/princekeshriabc/IIIT-Raichur-AIMS-Extention" target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projectCard" id="project3">
+                    <div class="projectNumber rightNumber">03</div>
+                    <div class="projectContent leftProjectContent">
+                        <div class="projectSkillsContainer">
+                            <img class="projectSkill" src="./image/stack/icons8-python.svg" alt="" />
+                            <img class="projectSkill" src="./image/stack/icons8-jupyter.svg" alt="" />
+                            <img class="projectSkill" src="./image/stack/icons8-flask-64.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/icons8-chatgpt-50.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/file.png" alt="" />
+                            
+                        </div>
+                        <h2 class="projectHeading">Fine-tuned open-sourced Large Language model for
+                        storytelling</h2>
+                        <p class="projectSubHeading">
+                            Generating a captivating story that keeps readers engaged is no easy feat. A good story requires a seamless flow, a
+                            compelling plot, and well-developed characters.
+                        </p>
+                        <div class="btnGroup">
+                            <button class="btn btnProject" onclick="window.open('https://drive.google.com/file/d/1HHVW2qn7aAaTDRX8MDs9uJKXwwICxQuO/view?usp=sharing', '_blank')">Read More</button>
+                            <a href="https://github.com/princekeshriabc/LLM_Project" target="_blank" >
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="projectCard" id="project4">
+                    <div class="projectNumber leftNumber">04</div>
+                    <div class="projectContent rightProjectContent">
+                        <div class="projectSkillsContainer">
+                            <img class="projectSkill" src="./image/stack/icons8-streamlit-50.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/ML.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/NLP.png" alt="" />
+                            <img class="projectSkill" src="./image/stack/icons8-python.svg" alt="" />
+                            <img class="projectSkill" src="./image/stack/icons8-jupyter.svg" alt="" />
+        
+                            
+                        </div>
+                        <h2 class="projectHeading">Resume Screener App</h2>
+                        <p class="projectSubHeading">
+                            Its aimed to predict the suitable job role according to your resume.
+                        </p>
+                        <div class="btnGroup">
+                            <button class="btn btnProject" onclick="window.open('https://github.com/princekeshriabc/NLP-Project', '_blank')">Read More</button>
+                            <a href="https://github.com/princekeshriabc/NLP-Project" target="_blank">
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project Section End  -->
+        
+        <!-- Skill Section Start  -->
+        <section class="skillContainer" id="skills">
+            <div class="skillFadedText absolute">Skills</div>
+            <div class="leftSkillContainer">
+                <h2 class="skillHeading"><span>M</span>e and <br />MyTech Stack</h2>
+                <div class="skillSubHeading">
+                    <p>
+                        I am Prince Keshri.I completed my 11th and 12th from Jawahar Navodaya Vidyalaya, Kaimur. I became the founder of the
+                        finance club of IIIT Raichur which
+                        is Finspiration club. I began to explore a lot of technologies and software products. I was a part of the start-up and
+                        in that I got the chance to look the development process very closely. From designing the product to writing the first
+                        line of code, I was together with them in their journey. I helped them by contributing in the market research part.
+                    </p>
+                    <p>
+                        From my 1st year of college itself I am learning to code. I started with learning C language as part of my
+                        curriculum but as I started learning more advanced data structures and algorithms, I switched to learning C++. Alongside
+                        I developed interest in web development and machine learning which helped me learn Python Language from scratch.
+                        
+                        
+                        After I completed machine learning related course form college, I developed interest in this field and I proceed to
+                        build a real project involving my learning.I believe that the best form of learning is through building projects. I
+                        apply this all the time. Whenever I want to learn something new, I will first watch some basic concept videos online and
+                        then look for an idea to build and start working on it. With this approach I was able to build so many interesting
+                        projects through my 3-years of college journey. I am very well connected with the latest technology updates as well as
+                        job market updates. I am the placement coordinator at IIIT Raichur, which helps me stay connected with the students and
+                        external companies. I am also very active on linkedin that helps me get the major updates regarding tech.  
+
+                    </p>
+                    <p>
+                        My career goal is very simple. I keep doing stuff that I enjoy. I enjoy learning and I enjoy coding and developing. Also
+                        I have a very realistic way of living. I never live in dreamlands.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="rightSkillContainer">
+        
+                <img src="./image/stack/HTML.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/CSS.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/Javascript.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/React.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/NodeJs.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/Redux.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/Tailwind.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/Bootstrap.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/Express.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/Git.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/Github.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/MongoDB.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/Vercel.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/Bash.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/file.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/gsap-greensock.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/icons8-chatgpt-50.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/icons8-flask-64.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/icons8-jupyter.svg" alt="" class="skillsLogo" />
+                <img src="./image/stack/icons8-streamlit-50.png" alt="" class="skillsLogo" />
+                <img src="./image/stack/NLP.png" alt="" class="skillsLogo" />
+                
+            </div>
+        </section>
+        <!-- Skill Section End  -->
+        
+        <!-- Contact Me Section Start  -->
+        <section class="contactMeSection" id="contactMe">
+            <div class="container">
+                <h2 class="contactmetext">Contact Me</h2>
+                <h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
+        
+                <div class="contactUsForm">
+                    <form action="#">
+                        <div class="formFieldContainer">
+                            <input class="formField" type="text" placeholder="Enter your name" />
+                        </div>
+                        <div class="formFieldContainer">
+                            <input class="formField" type="email" placeholder="Enter your email address" />
+                        </div>
+                        <div class="formFieldContainer">
+                            <input class="formField" type="text" placeholder="Enter your Subject address" />
+                        </div>
+                        <div class="formFieldContainer">
+                            <textarea class="formField" name="message" id="" cols="30" rows="10"
+                                placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="formBtn">
+                            <button type="submit" class="btn" id="submit-btn">
+                                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Me Section End  -->
+        
+        <!-- Footer Section Start  -->
+        <footer class="footer foo">
+            <div class="container footerContainer">
+                <div class="footerFadedText">Prince Keshri ABC</div>
+                <div class="linkContainer">
+                    <div>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div>
+                        <a href="#skills">Skills</a>
+                    </div>
+                    <div>
+                        <a href="#contactMe">Contact Me</a>
+                    </div>
+                </div>
+                <div class="iconContainer">
+                    <a href="https://www.linkedin.com/in/prince-keshri-abc-262b1b224/" target="_blank">
+                        <i class="fa-brands fa-linkedin icon"></i>
+                    </a>
+                    <a href="https://github.com/princekeshriabc" target="_blank">
+                    <i class="fa-brands fa-github icon"></i>
+
+                    </a>
+                    <a href="https://github.com/princekeshriabc" target="_blank">
+                                            <i class="fa-brands fa-instagram icon"></i>
+
+                    </a>
+                    <a href="https://github.com/princekeshriabc" target="_blank">
+                                            <i class="fa-brands fa-twitter icon"></i>
+
+                    </a>
+                    <a href="mail:cs21b1023@iiitr.ac.in" target="_blank">
+                        <i class="fa-regular fa-envelope icon"></i>
+                    </a>
+                    
+                   
+                </div>
+            </div>
+            <p>&copy; <span id="current-year"></span> Prince Keshri Abc.</p>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
@@ -64,9 +338,10 @@
     var typeData = new Typed(".role", {
       strings: [
         "Full Stack Developer",
-        "Web Developer",
+        "Frontend Developer",
         "Backend Developer",
-        "Coder",
+        "Software Developer",
+        "ML/NLP/LLM developer",
         "Option Trader",
       ],
       loop: true,
@@ -75,5 +350,23 @@
       backDelay: 1000,
     });
   </script>
+  <script>
+    // Automatically update the year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+  <script>
+    const checkbox = document.getElementById("checkbox")
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("dark")
+        })
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
 </body>
 </html>
