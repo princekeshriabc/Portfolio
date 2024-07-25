@@ -47,11 +47,12 @@ t1.from(".imgContainer", {
     rotate:360,
     ease: "power2.out"
 },"abc")
-t1.from(".infoContainer", {
+t1.from(".infoContainer ,.heading,.heading.subHeading,.desc", {
     x: 200,
     opacity: 0,
     duration: 0.7,
-    ease: "power3.out"
+    ease: "power3.out",
+    stagger:0.2,
 },"abc")
 
 // faded text on landing page
@@ -73,7 +74,8 @@ fadedArray.forEach(function (ele, ind) {
 
 t1.from(".ac", {
     y: -100,
-    bottom:"28%",
+    bottom: "28%",
+    scale:0,
     duration: 0.7,
     stagger: 0.17,
     opacity: 0,
@@ -81,7 +83,8 @@ t1.from(".ac", {
 },"abc")
 t1.from(".bc", {
     y: -100,
-    bottom:"28%",
+    bottom: "28%",
+    scale:0,
     duration: 0.7,
     stagger: -0.17,
     opacity: 0,
