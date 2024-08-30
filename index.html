@@ -265,12 +265,14 @@
                 <h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
         
                 <div class="contactUsForm">
-                    <form action="#">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d5b1af8e-d818-48f2-9872-8a7c580a4255">
                         <div class="formFieldContainer">
-                            <input class="formField" type="text" placeholder="Enter your name" />
+                            <input class="formField" type="text" placeholder="Enter your name" name="name" required/>
                         </div>
                         <div class="formFieldContainer">
-                            <input class="formField" type="email" placeholder="Enter your email address" />
+                            <input class="formField" type="email" placeholder="Enter your email address" 
+                            name="email"/>
                         </div>
                         <div class="formFieldContainer">
                             <input class="formField" type="text" placeholder="Enter your Subject address" />
