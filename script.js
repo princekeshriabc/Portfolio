@@ -90,3 +90,39 @@ t1.from(".bc", {
     opacity: 0,
     
 },"abc")
+
+// var procardleft = document.querySelector(".leftProjectContent");
+// var procardright = document.querySelector(".rightProjectContent");
+
+// window.addEventListener("wheel", function (dets) {
+//     if (dets.deltaY > 0) {
+//         gsap.from("#project1", {
+//             right:"-19%",
+//             duration: 0.7,
+//             ease: "power4",
+//             scrollTrigger: {
+//                 trigger: "#project1",
+//                 start: "top 50%",
+//                 end: "top -50%",
+//                 scrub: 2,
+//                 marker:true,
+                
+//             }
+//         })
+//     }
+//     else {
+//         gsap.to("#project1", {
+//             right:"15%",
+//             duration: 0.7,
+//             ease: "power4",
+//             scrollTrigger: {
+//                 trigger: "#project1",
+//                 start: "top 50%",
+//                 end: "top -50%",
+//                 scrub: 2,
+//                 marker:true,
+                
+//             }
+//         })
+//     }
+// })
